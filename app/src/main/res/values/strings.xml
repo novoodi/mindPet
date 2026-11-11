@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">마음펫</string>
+    <string name="service_label">마음펫</string>
+    <string name="service_description">홈 화면에 작은 펫을 띄우고, 누르면 답장할 메시지·잊으면 안 되는 일·다가오는 일정을 보여 줍니다. 지금 앞에 있는 앱이 홈 화면인지만 확인하며, 다른 앱의 화면 내용이나 입력하는 글은 읽지 않습니다. 알림 내용은 별도로 허용한 알림 접근을 통해 폰 안에서만 처리하고 어디로도 전송하지 않습니다.</string>
+</resources>

@@ -1,0 +1,19 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# local
+local.properties
+*.gguf
+*.apk
+native/kev/build-arm64/
+.kotlin
+.idea
+__pycache__/

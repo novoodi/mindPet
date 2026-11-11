@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kev llama.cpp Inference Test"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Model Status Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#EEEEEE"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:id="@+id/tvModelStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Not Loaded" />
+        <TextView
+            android:id="@+id/tvModelPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Path: " />
+        <TextView
+            android:id="@+id/tvModelSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size: " />
+        <TextView
+            android:id="@+id/tvModelBackend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Backend: llama.cpp CPU" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Korean sentence..."
+        android:minLines="3"
+        android:gravity="top|start" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+        <Button
+            android:id="@+id/btnRun"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Run Inference" />
+        <Button
+            android:id="@+id/btnBenchmark"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Run Benchmark" />
+        <Button
+            android:id="@+id/btnParity"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Parity Test" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tvResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Results will appear here."
+            android:fontFamily="monospace" />
+    </ScrollView>
+
+</LinearLayout>

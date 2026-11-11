@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#5B7F6A</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="surface">#FBF9F4</color>
+    <color name="card">#FFFFFF</color>
+    <color name="card_stroke">#E6E1D6</color>
+    <color name="text">#2B2B2B</color>
+    <color name="text_secondary">#6E6E6E</color>
+    <color name="ic_launcher_background">#A8E6CF</color>
+
+    <!-- 펫 얼굴 바탕: 평소 / 챙길 게 있을 때 -->
+    <color name="pet_idle">#A8E6CF</color>
+    <color name="pet_alert">#FFE082</color>
+</resources>
